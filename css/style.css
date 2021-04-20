@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+    margin: 0;
+    max-width: 1990px;
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 60ms ease-in-out;
+}
+.name{
+    box-sizing: border-box;
+}
+.wether_btn{
+    width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.time {
+  font-size: 5rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.quote {
+    font: 1.2rem Georgia, serif;
+    margin: 0;
+    background: rgba(205, 214, 219, 0.3) ;
+    padding: 1em;
+    border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
+}
+.quote figcaption {
+    text-align: right;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: url("https://www.pngarts.com/files/7/Update-Button-PNG-Image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  margin: 10px;
+}
+.btn:hover {
+  filter: grayscale(.8);
+}
+.btn:active,
+.btn:focus {
+  outline: 0;
+}
+.btn:active{
+  transform: scale(1.02)
+}
+@media (max-width: 700px) {
+  .time {
+    font-size: 3rem;
+  }
+}
